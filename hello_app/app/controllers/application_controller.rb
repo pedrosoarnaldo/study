@@ -10,7 +10,7 @@ class ApplicationController < ActionController::Base
   end
 
   def git
-          render html: "teste git funcionou!"
+          render html: "teste git funcionou demais da conta!"
   end
 
 end
