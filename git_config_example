@@ -1,0 +1,16 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "github"]
+	url = https://github.com/pedrosoarnaldo/study.git
+	fetch = +refs/heads/*:refs/remotes/github/*
+[branch "master"]
+	remote = github
+	merge = refs/heads/master
+[remote "bitbucket"]
+	url = git@bitbucket.org:pedrosoarnaldo/study.git
+	fetch = +refs/heads/*:refs/remotes/bitbucket/*
