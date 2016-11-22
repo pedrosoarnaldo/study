@@ -14,8 +14,5 @@
 [remote "bitbucket"]
     url = git@bitbucket.org:pedrosoarnaldo/arduino.git
     fetch = +refs/heads/*:refs/remotes/bitbucket/*
-[branch "master"]
-	remote = bitbucket
-	merge = refs/heads/master
 [user]
 	email = pedroso.arnaldo@gmail.com
