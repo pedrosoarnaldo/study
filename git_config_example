@@ -5,12 +5,17 @@
 	logallrefupdates = true
 	ignorecase = true
 	precomposeunicode = true
-[remote "github"]
-	url = https://github.com/pedrosoarnaldo/study.git
-	fetch = +refs/heads/*:refs/remotes/github/*
+[remote "origin"]
+	url = https://github.com/pedrosoarnaldo/arduino.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
 [branch "master"]
-	remote = github
+	remote = origin
 	merge = refs/heads/master
 [remote "bitbucket"]
-	url = git@bitbucket.org:pedrosoarnaldo/study.git
-	fetch = +refs/heads/*:refs/remotes/bitbucket/*
+    url = git@bitbucket.org:pedrosoarnaldo/arduino.git
+    fetch = +refs/heads/*:refs/remotes/bitbucket/*
+[branch "master"]
+	remote = bitbucket
+	merge = refs/heads/master
+[user]
+	email = pedroso.arnaldo@gmail.com
