@@ -77,11 +77,11 @@ GEM
     mini_portile2 (2.1.0)
     minitest (5.9.0)
     multi_json (1.12.1)
+    mysql2 (0.3.16)
     nio4r (1.2.1)
     nokogiri (1.6.8)
       mini_portile2 (~> 2.1.0)
       pkg-config (~> 1.1.7)
-    pg (0.18.4)
     pkg-config (1.1.7)
     puma (3.4.0)
     rack (2.0.1)
@@ -160,7 +160,7 @@ DEPENDENCIES
   jbuilder (= 2.4.1)
   jquery-rails (= 4.1.1)
   listen (= 3.0.8)
-  pg (= 0.18.4)
+  mysql2 (= 0.3.16)
   puma (= 3.4.0)
   rails (= 5.0.0)
   sass-rails (= 5.0.5)
@@ -173,4 +173,4 @@ DEPENDENCIES
   web-console (= 3.1.1)
 
 BUNDLED WITH
-   1.12.5
+   1.14.6
